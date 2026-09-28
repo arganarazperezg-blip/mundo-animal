@@ -116,7 +116,7 @@ section {
     max-width: none;
     box-sizing: border-box;
 }
-#gatos {
+#gatos .productos {
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
