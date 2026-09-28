@@ -35,8 +35,16 @@ main {
     margin: 40px auto;
     padding: 20px;
     box-sizing: border-box;
-} {
-    font-size: 30px;
+} main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+section {
+    margin-top: 40px;
 }
 section {
     margin-top: 40px;
@@ -63,4 +71,101 @@ section {
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
+}
+.producto img {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+    border-radius: 12px;
+    display: block;
+    margin: 20px auto;
+}
+.producto img {
+    width: 100%;
+    max-width: 500px;
+    height: 350px;
+    object-fit: contain;
+    display: block;
+    margin: 20px auto;
+}
+#perros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+#perros h2 {
+    width: 100%;
+}
+
+.producto {
+    flex: 1 1 400px;
+}
+#perros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+#perros > h2 {
+    width: 100%;
+}
+
+#perros .producto {
+    width: calc(50% - 13px);
+    max-width: none;
+    box-sizing: border-box;
+}
+#gatos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+#gatos > h2 {
+    width: 100%;
+}
+
+#gatos .producto {
+    width: calc(50% - 13px);
+    max-width: none;
+    box-sizing: border-box;
+}
+.descuento {
+    display: inline-block;
+    background-color: #ff5a36;
+    color: white;
+    font-weight: bold;
+    padding: 8px 14px;
+    border-radius: 8px;
+    margin: 10px 0 20px;
+}
+#ofertas .productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+#ofertas .producto {
+    width: calc(50% - 13px);
+    max-width: none;
+    box-sizing: border-box;
+}
+@media (max-width: 700px) {
+    #perros .producto,
+    #gatos .producto,
+    #ofertas .producto {
+        width: 100%;
+    }
+}
+html {
+    scroll-behavior: smooth;
+}
+footer {
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+    background-color: #333;
+    color: white;
+    font-size: 14px;
 }
