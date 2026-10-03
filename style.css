@@ -219,4 +219,8 @@ footer {
     .producto p {
         margin: 10px 0;
     }
+
+.productos {
+    grid-template-columns: 1fr;
+}
 }
