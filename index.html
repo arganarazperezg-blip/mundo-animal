@@ -37,7 +37,23 @@
     </nav>
 
     <main>
-      <script src="script.js"></script>
+      
+<div class="buscador-productos">
+    <input
+        type="search"
+        id="buscador"
+        placeholder="🔍 Buscar productos para mascotas..."
+        aria-label="Buscar productos"
+    >
+
+    <div class="filtros">
+        <button type="button" data-filtro="todos">Todos</button>
+        <button type="button" data-filtro="perros">🐶 Perros</button>
+        <button type="button" data-filtro="gatos">🐱 Gatos</button>
+    </div>
+</div>
+
+     
         <section id="perros">
 
     <h2>Productos para perros</h2>
