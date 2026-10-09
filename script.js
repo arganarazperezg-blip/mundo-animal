@@ -1,4 +1,5 @@
 
+
 document.addEventListener("DOMContentLoaded", () => {
   const buscador = document.getElementById("buscador");
   const botones = document.querySelectorAll("[data-filtro]");
@@ -18,11 +19,14 @@ document.addEventListener("DOMContentLoaded", () => {
         categoria === "todos" ||
         seccion === categoria;
 
-      producto.hidden = !(coincideTexto && coincideCategoria);
+      producto.style.display =
+        coincideTexto && coincideCategoria ? "" : "none";
     });
   }
 
-  buscador.addEventListener("input", filtrarProductos);
+  if (buscador) {
+    buscador.addEventListener("input", filtrarProductos);
+  }
 
   botones.forEach(boton => {
     boton.addEventListener("click", () => {
