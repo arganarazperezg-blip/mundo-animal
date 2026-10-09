@@ -1,0 +1,10 @@
+MUNDO ANIMAL - NUEVO DISEÑO
+
+1. Descarga el ZIP y descomprímelo.
+2. En GitHub, abre el repositorio mundo-animal.
+3. Sustituye index.html, style.css y script.js por estos tres archivos.
+4. Conserva todas las imágenes JPG que ya están en el repositorio.
+5. Confirma los cambios (Commit changes) y espera la publicación de GitHub Pages.
+6. Recarga la web con Cmd+Shift+R.
+
+IMPORTANTE: Los enlaces de Amazon se conservaron exactamente como los enviaste, pero no se ha comprobado si son enlaces válidos de afiliado. Revisa los enlaces y el identificador de afiliado en Amazon Associates antes de promocionar la web. Se eliminaron porcentajes de descuento que no estaban verificados.
